@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D056F6892057AE3A00653D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F6882057AE3A00653D30 /* AppDelegate.swift */; };
+		D056F68B2057AE3A00653D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F68A2057AE3A00653D30 /* ViewController.swift */; };
+		D056F68E2057AE3A00653D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056F68C2057AE3A00653D30 /* Main.storyboard */; };
+		D056F6902057AE3A00653D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D056F68F2057AE3A00653D30 /* Assets.xcassets */; };
+		D056F6932057AE3A00653D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056F6912057AE3A00653D30 /* LaunchScreen.storyboard */; };
+		D056F69E2057AE3A00653D30 /* Green_LeafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F69D2057AE3A00653D30 /* Green_LeafTests.swift */; };
+		D056F6A92057AE3A00653D30 /* Green_LeafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F6A82057AE3A00653D30 /* Green_LeafUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D056F69A2057AE3A00653D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D056F67D2057AE3A00653D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D056F6842057AE3A00653D30;
+			remoteInfo = "Green Leaf";
+		};
+		D056F6A52057AE3A00653D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D056F67D2057AE3A00653D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D056F6842057AE3A00653D30;
+			remoteInfo = "Green Leaf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D056F6852057AE3A00653D30 /* Green Leaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Leaf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056F6882057AE3A00653D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D056F68A2057AE3A00653D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D056F68D2057AE3A00653D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D056F68F2057AE3A00653D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D056F6922057AE3A00653D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D056F6942057AE3A00653D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056F6992057AE3A00653D30 /* Green LeafTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green LeafTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056F69D2057AE3A00653D30 /* Green_LeafTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_LeafTests.swift; sourceTree = "<group>"; };
+		D056F69F2057AE3A00653D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056F6A42057AE3A00653D30 /* Green LeafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green LeafUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056F6A82057AE3A00653D30 /* Green_LeafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_LeafUITests.swift; sourceTree = "<group>"; };
+		D056F6AA2057AE3A00653D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D056F6822057AE3A00653D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056F6962057AE3A00653D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056F6A12057AE3A00653D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D056F67C2057AE3A00653D30 = {
+			isa = PBXGroup;
+			children = (
+				D056F6872057AE3A00653D30 /* Green Leaf */,
+				D056F69C2057AE3A00653D30 /* Green LeafTests */,
+				D056F6A72057AE3A00653D30 /* Green LeafUITests */,
+				D056F6862057AE3A00653D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D056F6862057AE3A00653D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D056F6852057AE3A00653D30 /* Green Leaf.app */,
+				D056F6992057AE3A00653D30 /* Green LeafTests.xctest */,
+				D056F6A42057AE3A00653D30 /* Green LeafUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D056F6872057AE3A00653D30 /* Green Leaf */ = {
+			isa = PBXGroup;
+			children = (
+				D056F6882057AE3A00653D30 /* AppDelegate.swift */,
+				D056F68A2057AE3A00653D30 /* ViewController.swift */,
+				D056F68C2057AE3A00653D30 /* Main.storyboard */,
+				D056F68F2057AE3A00653D30 /* Assets.xcassets */,
+				D056F6912057AE3A00653D30 /* LaunchScreen.storyboard */,
+				D056F6942057AE3A00653D30 /* Info.plist */,
+			);
+			path = "Green Leaf";
+			sourceTree = "<group>";
+		};
+		D056F69C2057AE3A00653D30 /* Green LeafTests */ = {
+			isa = PBXGroup;
+			children = (
+				D056F69D2057AE3A00653D30 /* Green_LeafTests.swift */,
+				D056F69F2057AE3A00653D30 /* Info.plist */,
+			);
+			path = "Green LeafTests";
+			sourceTree = "<group>";
+		};
+		D056F6A72057AE3A00653D30 /* Green LeafUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D056F6A82057AE3A00653D30 /* Green_LeafUITests.swift */,
+				D056F6AA2057AE3A00653D30 /* Info.plist */,
+			);
+			path = "Green LeafUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D056F6842057AE3A00653D30 /* Green Leaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056F6AD2057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green Leaf" */;
+			buildPhases = (
+				D056F6812057AE3A00653D30 /* Sources */,
+				D056F6822057AE3A00653D30 /* Frameworks */,
+				D056F6832057AE3A00653D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green Leaf";
+			productName = "Green Leaf";
+			productReference = D056F6852057AE3A00653D30 /* Green Leaf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D056F6982057AE3A00653D30 /* Green LeafTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056F6B02057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green LeafTests" */;
+			buildPhases = (
+				D056F6952057AE3A00653D30 /* Sources */,
+				D056F6962057AE3A00653D30 /* Frameworks */,
+				D056F6972057AE3A00653D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D056F69B2057AE3A00653D30 /* PBXTargetDependency */,
+			);
+			name = "Green LeafTests";
+			productName = "Green LeafTests";
+			productReference = D056F6992057AE3A00653D30 /* Green LeafTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D056F6A32057AE3A00653D30 /* Green LeafUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056F6B32057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green LeafUITests" */;
+			buildPhases = (
+				D056F6A02057AE3A00653D30 /* Sources */,
+				D056F6A12057AE3A00653D30 /* Frameworks */,
+				D056F6A22057AE3A00653D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D056F6A62057AE3A00653D30 /* PBXTargetDependency */,
+			);
+			name = "Green LeafUITests";
+			productName = "Green LeafUITests";
+			productReference = D056F6A42057AE3A00653D30 /* Green LeafUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D056F67D2057AE3A00653D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MnSoftech;
+				TargetAttributes = {
+					D056F6842057AE3A00653D30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D056F6982057AE3A00653D30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D056F6842057AE3A00653D30;
+					};
+					D056F6A32057AE3A00653D30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D056F6842057AE3A00653D30;
+					};
+				};
+			};
+			buildConfigurationList = D056F6802057AE3A00653D30 /* Build configuration list for PBXProject "Green Leaf" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D056F67C2057AE3A00653D30;
+			productRefGroup = D056F6862057AE3A00653D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D056F6842057AE3A00653D30 /* Green Leaf */,
+				D056F6982057AE3A00653D30 /* Green LeafTests */,
+				D056F6A32057AE3A00653D30 /* Green LeafUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D056F6832057AE3A00653D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056F6932057AE3A00653D30 /* LaunchScreen.storyboard in Resources */,
+				D056F6902057AE3A00653D30 /* Assets.xcassets in Resources */,
+				D056F68E2057AE3A00653D30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056F6972057AE3A00653D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056F6A22057AE3A00653D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D056F6812057AE3A00653D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056F68B2057AE3A00653D30 /* ViewController.swift in Sources */,
+				D056F6892057AE3A00653D30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056F6952057AE3A00653D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056F69E2057AE3A00653D30 /* Green_LeafTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056F6A02057AE3A00653D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056F6A92057AE3A00653D30 /* Green_LeafUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D056F69B2057AE3A00653D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D056F6842057AE3A00653D30 /* Green Leaf */;
+			targetProxy = D056F69A2057AE3A00653D30 /* PBXContainerItemProxy */;
+		};
+		D056F6A62057AE3A00653D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D056F6842057AE3A00653D30 /* Green Leaf */;
+			targetProxy = D056F6A52057AE3A00653D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D056F68C2057AE3A00653D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D056F68D2057AE3A00653D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D056F6912057AE3A00653D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D056F6922057AE3A00653D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D056F6AB2057AE3A00653D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D056F6AC2057AE3A00653D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D056F6AE2057AE3A00653D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GD9NSD28HW;
+				INFOPLIST_FILE = "Green Leaf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-Leaf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D056F6AF2057AE3A00653D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GD9NSD28HW;
+				INFOPLIST_FILE = "Green Leaf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-Leaf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D056F6B12057AE3A00653D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GD9NSD28HW;
+				INFOPLIST_FILE = "Green LeafTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-LeafTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green Leaf.app/Green Leaf";
+			};
+			name = Debug;
+		};
+		D056F6B22057AE3A00653D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GD9NSD28HW;
+				INFOPLIST_FILE = "Green LeafTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-LeafTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green Leaf.app/Green Leaf";
+			};
+			name = Release;
+		};
+		D056F6B42057AE3A00653D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GD9NSD28HW;
+				INFOPLIST_FILE = "Green LeafUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-LeafUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green Leaf";
+			};
+			name = Debug;
+		};
+		D056F6B52057AE3A00653D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GD9NSD28HW;
+				INFOPLIST_FILE = "Green LeafUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-LeafUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green Leaf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D056F6802057AE3A00653D30 /* Build configuration list for PBXProject "Green Leaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056F6AB2057AE3A00653D30 /* Debug */,
+				D056F6AC2057AE3A00653D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056F6AD2057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green Leaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056F6AE2057AE3A00653D30 /* Debug */,
+				D056F6AF2057AE3A00653D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056F6B02057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green LeafTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056F6B12057AE3A00653D30 /* Debug */,
+				D056F6B22057AE3A00653D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056F6B32057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green LeafUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056F6B42057AE3A00653D30 /* Debug */,
+				D056F6B52057AE3A00653D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D056F67D2057AE3A00653D30 /* Project object */;
+}
