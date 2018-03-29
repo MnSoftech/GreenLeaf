@@ -1,0 +1,6 @@
+framework module Pods_Green_LeafUITests {
+  umbrella header "Pods-Green LeafUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

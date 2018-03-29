@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09D9EB4B77DD5ACC833A470A /* Pods_Green_LeafUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD52CA9949F921E8F02414A /* Pods_Green_LeafUITests.framework */; };
+		4B571B8A9A6352C73BCA5662 /* Pods_Green_Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7D631F9377A4D5FC34B746 /* Pods_Green_Leaf.framework */; };
+		A4DB6DD7F7AD52D39F28DC1A /* Pods_Green_LeafTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A42FEF54983071C745AC48A /* Pods_Green_LeafTests.framework */; };
 		D056F6892057AE3A00653D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F6882057AE3A00653D30 /* AppDelegate.swift */; };
-		D056F68B2057AE3A00653D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F68A2057AE3A00653D30 /* ViewController.swift */; };
+		D056F68B2057AE3A00653D30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F68A2057AE3A00653D30 /* HomeViewController.swift */; };
 		D056F68E2057AE3A00653D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056F68C2057AE3A00653D30 /* Main.storyboard */; };
 		D056F6902057AE3A00653D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D056F68F2057AE3A00653D30 /* Assets.xcassets */; };
 		D056F6932057AE3A00653D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056F6912057AE3A00653D30 /* LaunchScreen.storyboard */; };
 		D056F69E2057AE3A00653D30 /* Green_LeafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F69D2057AE3A00653D30 /* Green_LeafTests.swift */; };
 		D056F6A92057AE3A00653D30 /* Green_LeafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F6A82057AE3A00653D30 /* Green_LeafUITests.swift */; };
+		D056F6B72057AF1700653D30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D056F6B62057AF1700653D30 /* GoogleService-Info.plist */; };
+		D056F6B82057AF1700653D30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D056F6B62057AF1700653D30 /* GoogleService-Info.plist */; };
+		D056F6B92057AF1700653D30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D056F6B62057AF1700653D30 /* GoogleService-Info.plist */; };
+		D0B65BB72057C6FE003511B5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B65BB52057C6FD003511B5 /* SWRevealViewController.m */; };
+		D0B65BBC20581C66003511B5 /* ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B65BBB20581C66003511B5 /* ProductDetailsVC.swift */; };
+		D0DD451A20590CA500C31464 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD451920590CA400C31464 /* MaterialView.swift */; };
+		D0DD451C2059137000C31464 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD451B2059137000C31464 /* itemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341680F8203AA8B0F1E941C6 /* Pods-Green Leaf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green Leaf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Green Leaf/Pods-Green Leaf.release.xcconfig"; sourceTree = "<group>"; };
+		3B7D631F9377A4D5FC34B746 /* Pods_Green_Leaf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_Leaf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F24B7B243C48FAD16C86654 /* Pods-Green Leaf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green Leaf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Green Leaf/Pods-Green Leaf.debug.xcconfig"; sourceTree = "<group>"; };
+		44C423D3495FEA75CEBD92BF /* Pods-Green LeafUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green LeafUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Green LeafUITests/Pods-Green LeafUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6002F236CCE74CD7E364EB49 /* Pods-Green LeafTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green LeafTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Green LeafTests/Pods-Green LeafTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A42FEF54983071C745AC48A /* Pods_Green_LeafTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_LeafTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9875335E7EB7D6BE14D2EB30 /* Pods-Green LeafTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green LeafTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Green LeafTests/Pods-Green LeafTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFD52CA9949F921E8F02414A /* Pods_Green_LeafUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_LeafUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D056F6852057AE3A00653D30 /* Green Leaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Leaf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D056F6882057AE3A00653D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D056F68A2057AE3A00653D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D056F68A2057AE3A00653D30 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D056F68D2057AE3A00653D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D056F68F2057AE3A00653D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D056F6922057AE3A00653D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,14 @@
 		D056F6A42057AE3A00653D30 /* Green LeafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green LeafUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D056F6A82057AE3A00653D30 /* Green_LeafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_LeafUITests.swift; sourceTree = "<group>"; };
 		D056F6AA2057AE3A00653D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056F6B62057AF1700653D30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0B65BB42057C6FB003511B5 /* Green Leaf-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Green Leaf-Bridging-Header.h"; sourceTree = "<group>"; };
+		D0B65BB52057C6FD003511B5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D0B65BB62057C6FD003511B5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D0B65BBB20581C66003511B5 /* ProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVC.swift; sourceTree = "<group>"; };
+		D0DD451920590CA400C31464 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		D0DD451B2059137000C31464 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		DE4B9B1580D67FFDCB12B281 /* Pods-Green LeafUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green LeafUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Green LeafUITests/Pods-Green LeafUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B571B8A9A6352C73BCA5662 /* Pods_Green_Leaf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DB6DD7F7AD52D39F28DC1A /* Pods_Green_LeafTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D9EB4B77DD5ACC833A470A /* Pods_Green_LeafUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11FC5E4E60AA9380BFA10F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F24B7B243C48FAD16C86654 /* Pods-Green Leaf.debug.xcconfig */,
+				341680F8203AA8B0F1E941C6 /* Pods-Green Leaf.release.xcconfig */,
+				6002F236CCE74CD7E364EB49 /* Pods-Green LeafTests.debug.xcconfig */,
+				9875335E7EB7D6BE14D2EB30 /* Pods-Green LeafTests.release.xcconfig */,
+				44C423D3495FEA75CEBD92BF /* Pods-Green LeafUITests.debug.xcconfig */,
+				DE4B9B1580D67FFDCB12B281 /* Pods-Green LeafUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		926C3248B398BE0A30C02FC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B7D631F9377A4D5FC34B746 /* Pods_Green_Leaf.framework */,
+				8A42FEF54983071C745AC48A /* Pods_Green_LeafTests.framework */,
+				BFD52CA9949F921E8F02414A /* Pods_Green_LeafUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D056F67C2057AE3A00653D30 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				D056F69C2057AE3A00653D30 /* Green LeafTests */,
 				D056F6A72057AE3A00653D30 /* Green LeafUITests */,
 				D056F6862057AE3A00653D30 /* Products */,
+				11FC5E4E60AA9380BFA10F96 /* Pods */,
+				926C3248B398BE0A30C02FC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +151,19 @@
 		D056F6872057AE3A00653D30 /* Green Leaf */ = {
 			isa = PBXGroup;
 			children = (
-				D056F6882057AE3A00653D30 /* AppDelegate.swift */,
-				D056F68A2057AE3A00653D30 /* ViewController.swift */,
+				D0DD451820590C8400C31464 /* View */,
+				D056F68A2057AE3A00653D30 /* HomeViewController.swift */,
+				D0B65BBB20581C66003511B5 /* ProductDetailsVC.swift */,
+				D0DD451B2059137000C31464 /* itemCell.swift */,
 				D056F68C2057AE3A00653D30 /* Main.storyboard */,
 				D056F68F2057AE3A00653D30 /* Assets.xcassets */,
-				D056F6912057AE3A00653D30 /* LaunchScreen.storyboard */,
+				D0B65BB42057C6FB003511B5 /* Green Leaf-Bridging-Header.h */,
 				D056F6942057AE3A00653D30 /* Info.plist */,
+				D056F6B62057AF1700653D30 /* GoogleService-Info.plist */,
+				D056F6882057AE3A00653D30 /* AppDelegate.swift */,
+				D0B65BB62057C6FD003511B5 /* SWRevealViewController.h */,
+				D0B65BB52057C6FD003511B5 /* SWRevealViewController.m */,
+				D056F6912057AE3A00653D30 /* LaunchScreen.storyboard */,
 			);
 			path = "Green Leaf";
 			sourceTree = "<group>";
@@ -125,6 +186,14 @@
 			path = "Green LeafUITests";
 			sourceTree = "<group>";
 		};
+		D0DD451820590C8400C31464 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD451920590CA400C31464 /* MaterialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D056F6AD2057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green Leaf" */;
 			buildPhases = (
+				CBF6C050792A60C37E7E1E7A /* [CP] Check Pods Manifest.lock */,
 				D056F6812057AE3A00653D30 /* Sources */,
 				D056F6822057AE3A00653D30 /* Frameworks */,
 				D056F6832057AE3A00653D30 /* Resources */,
+				6F564FB8CD9787B50B8792E8 /* [CP] Embed Pods Frameworks */,
+				4326FC9F86FFD56E214B9648 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D056F6B02057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green LeafTests" */;
 			buildPhases = (
+				EE54637A8CE1165CDB790A12 /* [CP] Check Pods Manifest.lock */,
 				D056F6952057AE3A00653D30 /* Sources */,
 				D056F6962057AE3A00653D30 /* Frameworks */,
 				D056F6972057AE3A00653D30 /* Resources */,
+				64E0457949114C3356918C4C /* [CP] Embed Pods Frameworks */,
+				3539646F93A30F4FDA3EDD30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D056F6B32057AE3A00653D30 /* Build configuration list for PBXNativeTarget "Green LeafUITests" */;
 			buildPhases = (
+				53B478D53DF941D04B6B2882 /* [CP] Check Pods Manifest.lock */,
 				D056F6A02057AE3A00653D30 /* Sources */,
 				D056F6A12057AE3A00653D30 /* Frameworks */,
 				D056F6A22057AE3A00653D30 /* Resources */,
+				CEAAB8AC00344274F219C6E1 /* [CP] Embed Pods Frameworks */,
+				030B16875BF0A58AC428B65F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +271,7 @@
 				TargetAttributes = {
 					D056F6842057AE3A00653D30 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					D056F6982057AE3A00653D30 = {
@@ -233,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D056F6932057AE3A00653D30 /* LaunchScreen.storyboard in Resources */,
+				D056F6B72057AF1700653D30 /* GoogleService-Info.plist in Resources */,
 				D056F6902057AE3A00653D30 /* Assets.xcassets in Resources */,
 				D056F68E2057AE3A00653D30 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D056F6B82057AF1700653D30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +330,179 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D056F6B92057AF1700653D30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030B16875BF0A58AC428B65F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green LeafUITests/Pods-Green LeafUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3539646F93A30F4FDA3EDD30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green LeafTests/Pods-Green LeafTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4326FC9F86FFD56E214B9648 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green Leaf/Pods-Green Leaf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B478D53DF941D04B6B2882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Green LeafUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E0457949114C3356918C4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green LeafTests/Pods-Green LeafTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F564FB8CD9787B50B8792E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Green Leaf/Pods-Green Leaf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green Leaf/Pods-Green Leaf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF6C050792A60C37E7E1E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Green Leaf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEAAB8AC00344274F219C6E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green LeafUITests/Pods-Green LeafUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE54637A8CE1165CDB790A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Green LeafTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D056F6812057AE3A00653D30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D056F68B2057AE3A00653D30 /* ViewController.swift in Sources */,
+				D056F68B2057AE3A00653D30 /* HomeViewController.swift in Sources */,
+				D0B65BBC20581C66003511B5 /* ProductDetailsVC.swift in Sources */,
+				D0DD451A20590CA500C31464 /* MaterialView.swift in Sources */,
 				D056F6892057AE3A00653D30 /* AppDelegate.swift in Sources */,
+				D0DD451C2059137000C31464 /* itemCell.swift in Sources */,
+				D0B65BB72057C6FE003511B5 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +666,18 @@
 		};
 		D056F6AE2057AE3A00653D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F24B7B243C48FAD16C86654 /* Pods-Green Leaf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GD9NSD28HW;
+				DEVELOPMENT_TEAM = R2HK8875FX;
 				INFOPLIST_FILE = "Green Leaf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-Leaf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Green Leaf/Green Leaf-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +685,17 @@
 		};
 		D056F6AF2057AE3A00653D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341680F8203AA8B0F1E941C6 /* Pods-Green Leaf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GD9NSD28HW;
+				DEVELOPMENT_TEAM = R2HK8875FX;
 				INFOPLIST_FILE = "Green Leaf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.mnsoftech.Green-Leaf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Green Leaf/Green Leaf-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +703,7 @@
 		};
 		D056F6B12057AE3A00653D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6002F236CCE74CD7E364EB49 /* Pods-Green LeafTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +721,7 @@
 		};
 		D056F6B22057AE3A00653D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9875335E7EB7D6BE14D2EB30 /* Pods-Green LeafTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +739,7 @@
 		};
 		D056F6B42057AE3A00653D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C423D3495FEA75CEBD92BF /* Pods-Green LeafUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +756,7 @@
 		};
 		D056F6B52057AE3A00653D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4B9B1580D67FFDCB12B281 /* Pods-Green LeafUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
