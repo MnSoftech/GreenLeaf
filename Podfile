@@ -10,6 +10,7 @@ target 'Green Leaf' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
 
   target 'Green LeafTests' do
     inherit! :search_paths

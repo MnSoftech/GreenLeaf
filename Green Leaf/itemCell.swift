@@ -11,7 +11,6 @@ import UIKit
 class itemCell: UITableViewCell {
 
     @IBOutlet weak var thumbImage: UIImageView!
-    
     @IBOutlet weak var productLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var orderNowButton: UIButton!

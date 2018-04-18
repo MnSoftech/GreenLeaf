@@ -10,6 +10,8 @@
 		09D9EB4B77DD5ACC833A470A /* Pods_Green_LeafUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD52CA9949F921E8F02414A /* Pods_Green_LeafUITests.framework */; };
 		4B571B8A9A6352C73BCA5662 /* Pods_Green_Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7D631F9377A4D5FC34B746 /* Pods_Green_Leaf.framework */; };
 		A4DB6DD7F7AD52D39F28DC1A /* Pods_Green_LeafTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A42FEF54983071C745AC48A /* Pods_Green_LeafTests.framework */; };
+		D008157F2087B32B00637388 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008157E2087B32B00637388 /* Extensions.swift */; };
+		D03333942075E03B009AE7D0 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03333932075E03B009AE7D0 /* Products.swift */; };
 		D056F6892057AE3A00653D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F6882057AE3A00653D30 /* AppDelegate.swift */; };
 		D056F68B2057AE3A00653D30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056F68A2057AE3A00653D30 /* HomeViewController.swift */; };
 		D056F68E2057AE3A00653D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056F68C2057AE3A00653D30 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		8A42FEF54983071C745AC48A /* Pods_Green_LeafTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_LeafTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9875335E7EB7D6BE14D2EB30 /* Pods-Green LeafTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green LeafTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Green LeafTests/Pods-Green LeafTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFD52CA9949F921E8F02414A /* Pods_Green_LeafUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_LeafUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D008157E2087B32B00637388 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D03333932075E03B009AE7D0 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		D056F6852057AE3A00653D30 /* Green Leaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Leaf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D056F6882057AE3A00653D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D056F68A2057AE3A00653D30 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 				D0DD451820590C8400C31464 /* View */,
 				D056F68A2057AE3A00653D30 /* HomeViewController.swift */,
 				D0B65BBB20581C66003511B5 /* ProductDetailsVC.swift */,
+				D03333932075E03B009AE7D0 /* Products.swift */,
 				D0DD451B2059137000C31464 /* itemCell.swift */,
 				D056F68C2057AE3A00653D30 /* Main.storyboard */,
 				D056F68F2057AE3A00653D30 /* Assets.xcassets */,
@@ -189,6 +194,7 @@
 		D0DD451820590C8400C31464 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D008157E2087B32B00637388 /* Extensions.swift */,
 				D0DD451920590CA400C31464 /* MaterialView.swift */,
 			);
 			path = View;
@@ -500,6 +506,8 @@
 				D056F68B2057AE3A00653D30 /* HomeViewController.swift in Sources */,
 				D0B65BBC20581C66003511B5 /* ProductDetailsVC.swift in Sources */,
 				D0DD451A20590CA500C31464 /* MaterialView.swift in Sources */,
+				D008157F2087B32B00637388 /* Extensions.swift in Sources */,
+				D03333942075E03B009AE7D0 /* Products.swift in Sources */,
 				D056F6892057AE3A00653D30 /* AppDelegate.swift in Sources */,
 				D0DD451C2059137000C31464 /* itemCell.swift in Sources */,
 				D0B65BB72057C6FE003511B5 /* SWRevealViewController.m in Sources */,
